@@ -1,34 +1,132 @@
-body{
+body {
     width: 960px;
-    /*TODO : color, font, sizes, header, footer, etc. */
+    background-color: rgb(72, 108, 175);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+
 }
 
-nav{
-    /*TODO : color, font, sizes, header, footer, etc. */
+/*navbar block style*/
+nav {
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    border-bottom: solid 1px goldenrod;
 }
 
-footer{
-    /*TODO : color, font, sizes, header, footer, etc. */
-}
-
-.title{ /* COPILOT TO CHANGE*/
-    font-size: 24px;
+/*navbar link style*/
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
     font-weight: bold;
-    color: #000;
 }
 
-.sub-title{ /* COPILOT TO CHANGE*/
-    font-size: 18px;
+nav ul {
+    overflow: hidden;
+    list-style-type: none;
+    ;
+}
+
+nav li {
+    float: left;
+    padding: 30px;
+    font-size: x-large;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    background-color: goldenrod;
+}
+
+.navlist:hover .navlink {
+    color: goldenrod;
+    text-decoration: underline;
+    background-color: black;
+}
+
+.navlist:hover {
+    background-color: black;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    float: left;
+}
+
+.brand {
+    float: left;
+    padding: 30px;
+    font-size: 40px;
+    color: white;
+   
+}
+
+.text {
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin: 0px;
+    font-size: 20px;
     font-weight: bold;
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+/*footer block style*/
+
+
+
+/* Path: project-1\index.html */
+
+
+.title {
+    /* COPILOT TO CHANGE*/
+    font-size: 40px;
+    
+    text-align: center;
+    font-weight: bolder;
+}
+
+.subtitle {
+    /* COPILOT TO CHANGE*/
+    font-size: 30px;
+    font-weight: bold;
+    /*slanted text*/
+    font-style: italic;
     color: #000;
 }
 
-.text{ /* COPILOT TO CHANGE*/
-    font-size: 12px;
-    color: #000;
+footer {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-top: solid 1px goldenrod;
 }
 
+/*footer link style*/
 
+footer a {
+    color: goldenrod;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+/*footer link hover style*/
+
+footer a:hover {
+    color: black;
+    padding: 10px;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
 
 /* Path: project-1\css\main.css */
-
