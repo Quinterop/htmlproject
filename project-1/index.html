@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/project-1/css/style.css">
     <link rel="icon" href="IMAGEURL">
-    <link rel="shortcut icon" href="images/Stonks_emoji.svg.png">
+    <link rel="shortcut icon" href="/project-1/images/Stonks_emoji.svg.png">
     <title>TITLE</title>
 </head>
 
@@ -14,17 +14,29 @@
     <nav id="top">
         <div class="nav-logo">
             <a href="index.html">
-                <img src="images/Stonks_emoji.svg.png" alt="LOGO" height="150" class="logo" style="color:white;">
-                <h1 class="brand"> Stonks Investments</h1>
+                <img src="/project-1/images/Stonks_emoji.svg.png" alt="LOGO" height="150" class="logo" style="color:white;">
+                <h1 class="brand"> STONKS INVESTMENTS</h1>
             </a>
         </div>
 
         <ul class="nav-links">
-            <li style="border-left: solid  black 4px" class="navlist"><a class="navlink" href="index.html">Home</a></li>
-            <li class="navlist"><a class="navlink" href="about.html">About</a></li>
-            <li class="navlist"><a class="navlink" href="photos.html">Photo gallery</a></li>
-            <li class="navlist"><a class="navlink" href="News.html">News</a></li>
-            <li class="navlist"><a class="navlink" href="contact.html">Contact</a></li>
+            <li style="border-left: solid  black 4px" class="navlist dropbtn"><a class="navlink"
+                    href="/project-1/index.html">Home</a>
+                <div class="dropdown">
+                    <a href="#" class="bordertop borderbottom">Link 1</a>
+                    <a href="#" class="borderbottom">Link 2</a>
+                    <a href="#" class="borderbottom">Link 3</a>
+                </div>
+            </li>
+            <li class="navlist dropbtn"><a class="navlink" href="/project-1/about/about.html">About</a>
+                <div class="dropdown">
+                    <a href="/project-1/about/about.html" class="bordertop borderbottom">About us</a>
+                    <a href="/project-1/about/staff.html" class="borderbottom">Staff</a>
+                </div>
+            </li>
+            <li class="navlist"><a class="navlink" href="/project-1/gallery/gallery.html">Photo gallery</a></li>
+            <li class="navlist"><a class="navlink" href="/project-1/news/news.html">News</a></li>
+            <li class="navlist"><a class="navlink" href="/project-1/contact/contact.html">Contact</a></li>
         </ul>
 
     </nav>
@@ -38,7 +50,9 @@
     </div>
 
     <footer>
+
         <a href="#top">Top of the page</a>
+        <p class="copyright">copyright 2022</p>
     </footer>
 
 </body>
