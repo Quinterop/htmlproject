@@ -126,17 +126,34 @@ nav li {
     border-bottom: 4px solid black;
 }
 
-/*footer block style*/
+form{
+    padding: 20px;
+    margin: 50px;
+    font-size: 30px;
+    width: 600px;
+}
 
+label{
+    float: left;
+}
 
+input{
+    float: right;
+    margin: 10px;
+    height: 26px;
+    width: 200px;
+}
 
-/* Path: project-1\index.html */
+textarea{
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+}
 
 
 .title {
     /* COPILOT TO CHANGE*/
     font-size: 40px;
-    font-family: ;
     text-align: center;
     font-weight: bolder;
 }
@@ -196,7 +213,6 @@ td {
 th {
     /*center table*/
     margin: 1000;
-    pzdding: 10px;
     border: 1px solid #333;
     background-color: goldenrod;
     color: black;
