@@ -1,34 +1,278 @@
-body{
+body {
     width: 960px;
-    /*TODO : color, font, sizes, header, footer, etc. */
+    background-color: rgb(72, 108, 175);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+
 }
 
-nav{
-    /*TODO : color, font, sizes, header, footer, etc. */
+/*navbar*/
+nav {
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    border-bottom: solid 1px goldenrod;
 }
 
-footer{
-    /*TODO : color, font, sizes, header, footer, etc. */
-}
-
-.title{ /* COPILOT TO CHANGE*/
-    font-size: 24px;
+/*navbar link style*/
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
     font-weight: bold;
-    color: #000;
 }
 
-.sub-title{ /* COPILOT TO CHANGE*/
-    font-size: 18px;
+nav ul {
+    overflow: hidden;
+    list-style-type: none;
+    ;
+}
+
+nav li {
+    float: left;
+    padding: 30px;
+    font-size: x-large;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    background-color: goldenrod;
+}
+
+.navlist:hover .navlink {
+    color: goldenrod;
+    text-decoration: underline;
+    background-color: black;
+}
+
+.navlist:hover {
+    background-color: black;
+}
+
+.dropdown {
+    display: none;
+    position: relative;
+    width: inherit;
+    /*align*/
+    margin-left: -34px;
+    margin-top: 30;
+
+}
+
+.dropbtn:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown a {
+    float: none;
+    color: black;
+    background-color: goldenrod;
+    border-left: solid 4px black;
+    border-right: solid 4px black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown a:hover {
+    background-color: rgb(0, 0, 0);
+    color: goldenrod;
+}
+
+/*top part of page*/
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    float: left;
+}
+
+.brand {
+    float: left;
+    padding: 30px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*main content*/
+
+.text {
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin: 0px;
+    font-size: 20px;
     font-weight: bold;
-    color: #000;
-}
+    text-align: center;
 
-.text{ /* COPILOT TO CHANGE*/
-    font-size: 12px;
-    color: #000;
+    border-radius: 5px;
 }
 
 
 
-/* Path: project-1\css\main.css */
+.backimg {
+    background-image: url("/project-1/images/stocks.jpg");
+    background-size: cover;
+}
 
+form {
+    padding: 20px;
+    margin: 50px;
+    font-size: 30px;
+    width: 600px;
+}
+
+label {
+    float: left;
+}
+
+input {
+    float: right;
+    margin: 10px;
+    height: 26px;
+    width: 200px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+}
+
+
+.title {
+    /* COPILOT TO CHANGE*/
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.subtitle {
+    /* COPILOT TO CHANGE*/
+    font-size: 30px;
+    font-weight: bold;
+    /*slanted text*/
+    font-style: italic;
+    color: #000;
+}
+
+/*footer*/
+
+footer {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-top: solid 1px goldenrod;
+    display: flex;
+    justify-content: center;
+    size: 100%;
+}
+
+.copyright {
+    font-size: 13px;
+    text-align: center;
+
+}
+
+/*footer link style*/
+
+footer a {
+    color: goldenrod;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+/*footer link hover style*/
+
+footer a:hover {
+    color: black;
+    padding: 10px;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+/*shop table*/
+
+table,
+td {
+    /*center table*/
+    margin: 0 auto;
+    border: 1px solid #333;
+}
+
+th {
+    /*center table*/
+    margin: 1000;
+    border: 1px solid #333;
+    background-color: goldenrod;
+    color: black;
+    font-weight: bold;
+    font-size: 30;
+}
+
+td {
+    /*center table*/
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 20;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+.pic {
+    /*center images*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic2 {
+    width: 477px;
+}
+
+.inline {
+    display: inline;
+}
+
+.center{
+    margin-left: auto;  
+    margin-right: auto;
+    
+}
+
+/*avoid border overlap*/
+
+.bordertop {
+    border-top: 4px solid black;
+}
+
+.borderbottom {
+    border-bottom: 4px solid black;
+}
