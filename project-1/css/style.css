@@ -8,9 +8,8 @@ body {
 
 /*navbar*/
 nav {
-    color: white;
-    padding: 20px;
-    margin: 0px;
+    padding: 0px;
+    margin: 5px;
     text-align: center;
     border-bottom: solid 1px goldenrod;
 }
