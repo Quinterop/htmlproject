@@ -155,14 +155,12 @@ textarea {
 
 
 .title {
-    /* COPILOT TO CHANGE*/
     font-size: 40px;
     text-align: center;
     font-weight: bolder;
 }
 
 .subtitle {
-    /* COPILOT TO CHANGE*/
     font-size: 30px;
     font-weight: bold;
     /*slanted text*/
@@ -211,13 +209,11 @@ footer a:hover {
 
 table,
 td {
-    /*center table*/
     margin: 0 auto;
     border: 1px solid #333;
 }
 
 th {
-    /*center table*/
     margin: 1000;
     border: 1px solid #333;
     background-color: goldenrod;
@@ -227,7 +223,6 @@ th {
 }
 
 td {
-    /*center table*/
     margin: 0 auto;
     padding: 10px;
     border: 1px solid #333;
@@ -246,7 +241,6 @@ tfoot {
 
 
 .pic {
-    /*center images*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -260,10 +254,10 @@ tfoot {
     display: inline;
 }
 
-.center{
-    margin-left: auto;  
+.center {
+    margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 /*avoid border overlap*/
